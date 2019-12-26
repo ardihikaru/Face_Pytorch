@@ -6,6 +6,24 @@ The implementation of  popular face recognition algorithms in pytorch framework,
 
 All codes are evaluated on Pytorch 0.4.0 with Python 3.6, Ubuntu 16.04.10, CUDA 9.1 and CUDNN 7.1. Partially evaluated on Pytorch 1.0.	
 
+## Implementation & Modifications
+* re-implemented by [Ardihikaru]
+* Environment Setup
+    - Install Anaconda3
+    - Create conda env: `$ conda create -n facepy python=3.6 -c conda-forge` 
+    - Activate Conda Env: `$ conda activate facepy`
+    - Install all dependencies
+      1. Install MXNet: `$ pip install mxnet`
+      2. Install Pillow: `$ pip install Pillow`
+      3. Install OpenCV: `$ pip install opencv-python`
+      4. Install [TQDM](https://github.com/tqdm/tqdm): `$ pip install tqdm`
+    - Download sample Dataset.
+      1. Create folder in `$ROOT/data/`
+      2. Download [dataset](https://drive.google.com/file/d/1npu8Ma9BZDp4Z18ARkitwP0OozAy__aG/view) and copy only `part0_train.bin` into `$ROOT/data/`
+    - Extract `.bin` file from [Learn-to-cluster](https://github.com/ardihikaru/learn-to-cluster):
+      `$ python utils/load_images_from_bin.py --source-data bin --dataset-path data/part0_train.bin --output-path data/output_bin/`
+
+python3 -m pip install numpy -I
 
 ## Data Preparation
 For CNN training, I use CASIA-WebFace and Cleaned MS-Celeb-1M, aligned by MTCNN with the size of 112x112.  For performance testing, I report the results on LFW, AgeDB-30, CFP-FP, MegaFace rank1 identification and verification.

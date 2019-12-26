@@ -10,12 +10,13 @@
        You should install a mxnet-cpu first, just do 'pip install mxnet==1.2.1' is ok.
 '''
 
-from PIL import Image
+# from PIL import Image
 import cv2
 import os
 import pickle
 import mxnet as mx
 from tqdm import tqdm
+import argparse
 
 '''
 For train dataset, insightface provide a mxnet .rec file, just install a mxnet-cpu for extract images
@@ -59,8 +60,22 @@ def load_image_from_bin(bin_path, save_dir):
 
 
 if __name__ == '__main__':
+    # parser = argparse.ArgumentParser(description='Testing')
+    # parser.add_argument('--root', type=str, default='/media/sda/lfw/lfw_align_112', help='The path of lfw data')
+    # parser.add_argument('--file_list', type=str, default='/media/sda/lfw/pairs.txt', help='The path of lfw data')
+    # parser.add_argument('--backbone_net', type=str, default='CBAM_100_SE', help='MobileFace, CBAM_50, CBAM_50_SE, CBAM_100, CBAM_100_SE')
+    # parser.add_argument('--feature_dim', type=int, default=512, help='feature dimension')
+    # parser.add_argument('--resume', type=str, default='./model/SERES100_SERES100_IR_20190528_132635/Iter_342000_net.ckpt',
+    #                     help='The path pf save model')
+    # parser.add_argument('--feature_save_path', type=str, default='./result/cur_epoch_lfw_result.mat',
+    #                     help='The path of the extract features save, must be .mat file')
+    # parser.add_argument('--gpus', type=str, default='1,3', help='gpu list')
+    # args = parser.parse_args()
+
     #bin_path = 'D:/face_data_emore/faces_webface_112x112/lfw.bin'
-    #save_dir = 'D:/face_data_emore/faces_webface_112x112/lfw'
-    rec_path = 'D:/face_data_emore/faces_emore'
-    load_mx_rec(rec_path)
-    #load_image_from_bin(bin_path, save_dir)
+    save_dir = 'data/output_bin'
+    # rec_path = 'D:/face_data_emore/faces_emore'
+    # rec_path = 'data/lfw.bin'
+    bin_path = 'data/lfw.bin'
+    # load_mx_rec(rec_path)
+    load_image_from_bin(bin_path, save_dir)
