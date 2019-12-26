@@ -11,12 +11,16 @@ All codes are evaluated on Pytorch 0.4.0 with Python 3.6, Ubuntu 16.04.10, CUDA 
 * Environment Setup
     - Install Anaconda3
     - Create conda env: `$ conda create -n facepy python=3.6 -c conda-forge` 
+    - Create conda env: `$ conda create -n facepy python=3.7 -c conda-forge` 
     - Activate Conda Env: `$ conda activate facepy`
     - Install all dependencies
       1. Install MXNet: `$ pip install mxnet`
       2. Install Pillow: `$ pip install Pillow`
       3. Install OpenCV: `$ pip install opencv-python`
       4. Install [TQDM](https://github.com/tqdm/tqdm): `$ pip install tqdm`
+      5. Install PyTorch: `$ conda install -c pytorch pytorch`
+      6. Install PytorchVision: `$ conda install -c pytorch torchvision`
+      7. Install visdom: `$ pip install visdom`
     - Download sample Dataset.
       1. Create folder in `$ROOT/data/`
       2. Download [dataset](https://drive.google.com/file/d/1npu8Ma9BZDp4Z18ARkitwP0OozAy__aG/view) and copy only `part0_train.bin` into `$ROOT/data/`
