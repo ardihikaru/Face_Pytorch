@@ -1,0 +1,191 @@
+## 0.1.0 (十二月 26, 2019)
+  - added bump-version.sh and modified .gitignore files
+  - Update README.md
+  - update readme
+  - update readme
+  - readme
+  - update
+  - train.py
+  - multi margin
+  - train
+  - readme
+  - update
+  - update
+  - update
+  - readme
+  - eval_deepglint
+  - eval lfw
+  - train
+  - update
+  - cbam
+  - cbam
+  - update
+  - update
+  - train.py
+  - cbam
+  - update
+  - self attention
+  - self attention
+  - self attention
+  - self_attention
+  - eval megaface
+  - shit code
+  - inner product
+  - eval
+  - update
+  - eval megaface
+  - timer to calculate the inference time
+  - code optimization
+  - fix a bug
+  - update
+  - update
+  - update
+  - sram
+  - lfw loader
+  - restore image from mxnet file
+  - restore the train data from mxnet data type
+  - readme
+  - readme
+  - cpp api
+  - cppapi
+  - test
+  - self attention
+  - update readme
+  - attention 56/92
+  - update for pytorch 1.0.1
+  - update
+  - train
+  - cbam
+  - eval
+  - lfw_blufr_test
+  - senet
+  - cbam and senet
+  - readme
+  - visualization
+  - visualization
+  - readme
+  - visualization
+  - train cbam
+  - center loss
+  - CBAM
+  - channel attention and spatial attention
+  - train
+  - train SeRes100-IR
+  - visualization
+  - eval
+  - train res50-ir
+  - eval
+  - update initialization for center loss
+  - add visualization support during train
+  - add bn for spherenet
+  - visualization
+  - plot loss and accuracy during training
+  - plot loss and accuracy during training
+  - visdom support for visualization
+  - update
+  - add train accuracy
+  - original softmax training
+  - center loss
+  - center loss
+  - center loss
+  - inner product
+  - inner product
+  - center loss
+  - train
+  - theta distribution
+  - plot theta distribution
+  - theta distribution
+  - save net head
+  - readme
+  - result
+  - result
+  - training log
+  - test SEResNet50-IR
+  - result
+  - pretrain
+  - train
+  - result
+  - readme
+  - result
+  - result
+  - train accuracy
+  - update
+  - train
+  - eval
+  - result
+  - readme
+  - train accuracy
+  - eval
+  - result
+  - eval code
+  - arcfacenet
+  - result
+  - sphereface margin
+  - result
+  - sphereface net
+  - multiplicative angular margin
+  - train
+  - readme
+  - evaluate the test datasets
+  - test
+  - result
+  - result
+  - result
+  - result
+  - result
+  - add Res_IR_SE backbone
+  - result
+  - cfp-fp evaluation
+  - update
+  - result
+  - result
+  - result
+  - load image from mxnet file
+  - result
+  - result
+  - result
+  - result
+  - restore image from mxnet binary
+  - agedb30
+  - train
+  - update the lfw evaluate methods
+  - result
+  - update the project architecture
+  - update dataset
+  - train
+  - line coding
+  - fxxk
+  - all
+  - encoding
+  - readme
+  - readme
+  - backbone
+  - megaface feature extractor
+  - lfw
+  - train
+  - resnet for backboke
+  - readme
+  - readme
+  - train on gpu server
+  - cosface margin
+  - cosine margin product
+  - cuda
+  - gpu init
+  - readme
+  - train
+  - train mobilefacenet
+  - random flip for traindata
+  - train
+  - lfw
+  - logging tool
+  - casia webface
+  - update
+  - train
+  - a
+  - readme
+  - test
+  - mobilefacenet
+  - package init
+  - pycharm
+  - Initial commit
+
